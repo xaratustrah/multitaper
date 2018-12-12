@@ -9,6 +9,7 @@ def pmtm(signal, dpss, axis=-1):
     '''
     Estimate the power spectral density of the input signal.
     signal: n-dimensional array of real or complex values
+    dpss: the Slepian matrix
     axis:   axis along which to apply the Slepian windows. Default is the last one.
     '''
     # conversion to positive-only index

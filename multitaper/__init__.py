@@ -1,1 +1,1 @@
-from multitaper.multitaper import Multitaper
+from multitaper.multitaper import pmtm
