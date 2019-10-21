@@ -27,7 +27,7 @@ def pmtm(signal, dpss, axis=-1):
 
 if __name__ == '__main__':
     # a small test
-
+    # Using traditional values used by Fritz, i.e. NW=4, Max_K = 2x NW-2 = 6
     mydpss = dpss(M=1024, NW=4, Kmax=6)
     sig = np.vectorize(complex)(np.random.rand(1024), np.random.rand(1024))
     print(pmtm(sig, mydpss))
